@@ -1,0 +1,30 @@
+body {
+    padding-top: 50px;
+}
+.main {
+    padding: 40px 15px;
+    text-align: center;
+}
+.container h1,
+.container p {
+    margin: 0;
+}
+.center-text {
+    text-align: center;
+}
+.firstname {
+    width: 15%;
+}
+.lastname {
+    width: 15%;
+}
+.email {
+    width: 25%;
+}
+.phone {
+    width: 15%;
+}
+.guid {
+    width: 30%;
+    text-align: right;
+}
