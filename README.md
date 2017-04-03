@@ -17,4 +17,4 @@ Frameworks
 
 Browsers
 -
-* Latest versions of Chrome, Firefox, Opera and IE8+ are covered
+* Latest versions of Chrome, Firefox, Opera and IE9+ are covered
