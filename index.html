@@ -30,7 +30,7 @@
     <div class="container">
 
         <div class="main">
-            <h1>Secret Santa application</h1>
+            <!--h1>Secret Santa application</h1-->
         </div>
 
         <div class="panel panel-default">
@@ -42,20 +42,16 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                    <th class="guid">GUID</th>
+                    <th>Giver</th>
+                    <th>&nbsp;</th>
+                    <th>Receiver</th>
                 </tr>
                 </thead>
                 <tbody data-bind="visible: users().length, foreach: users">
                     <tr>
-                        <td data-bind="text: name.first" class="firstname"></td>
-                        <td data-bind="text: name.last" class="lastname"></td>
-                        <td data-bind="text: email" class="email"></td>
-                        <td data-bind="text: phone" class="phone"></td>
-                        <td data-bind="text: guid" class="guid"></td>
+                        <td><span data-bind="text: giver.name.first"></span> <span data-bind="text: giver.name.last"></span></td>
+                        <td>got</td>
+                        <td><span data-bind="text: receiver.name.first"></span> <span data-bind="text: receiver.name.last"></span></td>
                     </tr>
                 </tbody>
                 <tbody data-bind="visible: !users().length">
